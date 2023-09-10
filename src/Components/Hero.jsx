@@ -1,11 +1,14 @@
 import Waving from "../assets/images/waving.png";
-/*
+
+
 import Html from "../assets/icons/html.svg";
 import Css from "../assets/icons/css3.svg";
 import Js from "../assets/icons/javascript.svg";
-import React from "../assets/icons/react.svg";
+import React from "../assets/icons/react-js.svg";
+import Redux from "../assets/icons/redux.svg";
 import Tailwind from "../assets/icons/tailwind.svg";
-import Sass from "../assets/icons/scss.svg"; */
+
+
 
 import {TbBrandLinkedin} from "react-icons/tb";
 import { FiGithub } from "react-icons/fi";
@@ -13,28 +16,28 @@ import { FiGithub } from "react-icons/fi";
 function Hero(){
   const skillsIcons = [
     {
-      img: "Html",
+      img: Html,
       title: "HTML5",
     },
     {
-      img: "Css",
+      img: Css,
       title: "CSS3",
     },
     {
-      img: "Js",
+      img: Js,
       title: "Java Script",
     },
     {
-      img: "React",
+      img: React,
       title: "React",
     },
     {
-      img: "Tailwind",
-      title: "Tailwind CSS",
+      img:Redux ,
+      title: "Redux",
     },
     {
-      img:"Sass",
-      title: "SCSS",
+      img:Tailwind,
+      title: "Tailwind CSS",
     },
   ];
 
