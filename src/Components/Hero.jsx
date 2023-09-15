@@ -76,7 +76,7 @@ function Hero(){
               <div className="hero-img"></div>
             </div>
 
-            {/*  */}
+            
             <div className="skills">
               <p>Tech Stack</p>
               <div className="logos">
